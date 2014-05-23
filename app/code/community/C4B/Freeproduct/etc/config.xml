@@ -9,7 +9,12 @@
         <models>
             <freeproduct>
                 <class>C4B_Freeproduct_Model</class>
-            </freeproduct>         
+            </freeproduct>
+            <sales>
+                <rewrite>
+                    <quote_item>C4B_Freeproduct_Model_Quote_Item</quote_item>
+                </rewrite>
+            </sales>
         </models>     
         <helpers>
             <freeproduct>
